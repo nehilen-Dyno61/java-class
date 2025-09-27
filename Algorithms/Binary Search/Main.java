@@ -11,13 +11,13 @@ public class Main {
             int midPoint = (startPoint + endPoint) / 2;
 
             if (array[midPoint] == key) {
-                return midPoint; // key found, return index
+                return midPoint; // key found at mid, return ur index
             }
             else if (key < array[midPoint]) {
-                endPoint = midPoint - 1; // search left side
+                endPoint = midPoint - 1; // search left side of array
             }
             else {
-                startPoint = midPoint + 1; // search right side
+                startPoint = midPoint + 1; // search right side of array
             }
         }
         
