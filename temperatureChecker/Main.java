@@ -1,5 +1,5 @@
 public class Main {
-    public static void temperatureChecker(int temperature) {
+    public static void temperatureChecker(int temperature ) {
 
         if (temperature < 5) {
             System.out.println("Very cold!");
@@ -12,7 +12,7 @@ public class Main {
 
         } else if (temperature >= 23 && temperature <= 30) {
             System.out.println("Hot.");
-            
+
         } else if (temperature >= 31) {
             System.out.println("Very hot.");
         }
