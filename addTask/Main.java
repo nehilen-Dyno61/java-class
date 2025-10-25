@@ -8,7 +8,7 @@ public class Main {
     }
 
     public static void printTask(ArrayList<String> taskList) { // now only one for calling within the printTask to print task
-    for (String task : taskList) {
+    for (String task : taskList) { // for each loop to print the tasks
         System.out.println(task);
     }
   }
