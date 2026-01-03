@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] args) {
+    public static void printArray(int[] array) {
         int[] numbers = {6, 3, 9, 2, 7, 4};      
 
       System.out.println("Before:"); // print numbers before sorting
@@ -33,7 +33,7 @@ public class Main {
       printArray(numbers);
     } 
 
-  public static void printArray(int[] arr) {
+  public static void main (String[] args) { 
     for (int i = 0; i < arr.length; i++) { // loop thru the array to print a variable
       System.out.print(arr[i] + " "); // print the values with spaces in between
     }
